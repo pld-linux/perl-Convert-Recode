@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Recode
-Summary:	Convert-Recode perl module
-Summary(pl):	Modu³ perla Convert-Recode
+Summary:	Convert::Recode perl module
+Summary(pl):	Modu³ perla Convert::Recode
 Name:		perl-Convert-Recode
 Version:	1.03
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-Recode is a front end to the GNU recode program.
+Convert::Recode is a front end to the GNU recode program.
 
 %description -l pl
-Convert-Recode jest nak³adk± dla programu GNU recode.
+Convert::Recode jest nak³adk± dla programu GNU recode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
