@@ -26,7 +26,7 @@ Convert-Recode jest nak³adk± dla programu GNU recode.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
