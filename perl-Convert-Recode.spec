@@ -25,7 +25,7 @@ Convert::Recode jest nak³adk± dla programu GNU recode.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
