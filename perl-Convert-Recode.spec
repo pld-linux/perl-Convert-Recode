@@ -3,7 +3,7 @@ Summary:	Convert-Recode perl module
 Summary(pl):	Modu³ perla Convert-Recode
 Name:		perl-Convert-Recode
 Version:	1.03
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
