@@ -27,7 +27,7 @@ Convert::Recode jest nak³adk± dla programu GNU recode.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
