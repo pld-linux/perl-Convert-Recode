@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Recode
-Summary:	Convert::Recode perl module
-Summary(pl):	Modu³ perla Convert::Recode
+Summary:	Convert::Recode - make mapping functions between character sets
+Summary(pl):	Convert::Recode - tworzenie funkcji odwzorowuj±cych zestawy znaków
 Name:		perl-Convert-Recode
 Version:	1.04
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fac0f792e6ff23b8837750d35485c095
@@ -17,10 +18,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert::Recode is a front end to the GNU recode program.
+The Convert::Recode Perl module can provide mapping functions between
+character sets on demand.  It depends on GNU recode to provide the raw
+mapping data.
 
 %description -l pl
-Convert::Recode jest nak³adk± dla programu GNU recode.
+Modu³ Perla Convert::Recode s³u¿y do udostêpniania na ¿±danie funkcji
+odwzorowania pomiêdzy zestawami znaków. Jest on zale¿ny od programu
+GNU recode, który udostêpnia niskopoziomowe dane dla odwzorowañ.
+jest nak³adk± dla programu GNU recode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
