@@ -5,11 +5,11 @@ Summary:	Convert::Recode perl module
 Summary(pl):	Modu³ perla Convert::Recode
 Name:		perl-Convert-Recode
 Version:	1.03
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl >= 5.6
 Requires:	recode
 BuildArch:	noarch
