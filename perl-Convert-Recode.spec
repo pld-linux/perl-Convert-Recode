@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	Recode
+%define		pdir	Convert
+%define		pnam	Recode
 Summary:	Convert::Recode - make mapping functions between character sets
 Summary(pl):	Convert::Recode - tworzenie funkcji odwzorowuj±cych zestawy znaków
 Name:		perl-Convert-Recode
