@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Recode
 Summary:	Convert::Recode - make mapping functions between character sets
-Summary(pl):	Convert::Recode - tworzenie funkcji odwzorowuj±cych zestawy znaków
+Summary(pl.UTF-8):   Convert::Recode - tworzenie funkcji odwzorowujÄ…cych zestawy znakÃ³w
 Name:		perl-Convert-Recode
 Version:	1.04
 Release:	1
@@ -27,11 +27,11 @@ The Convert::Recode Perl module can provide mapping functions between
 character sets on demand.  It depends on GNU recode to provide the raw
 mapping data.
 
-%description -l pl
-Modu³ Perla Convert::Recode s³u¿y do udostêpniania na ¿±danie funkcji
-odwzorowania pomiêdzy zestawami znaków. Jest on zale¿ny od programu
-GNU recode, który udostêpnia niskopoziomowe dane dla odwzorowañ.
-jest nak³adk± dla programu GNU recode.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Convert::Recode sÅ‚uÅ¼y do udostÄ™pniania na Å¼Ä…danie funkcji
+odwzorowania pomiÄ™dzy zestawami znakÃ³w. Jest on zaleÅ¼ny od programu
+GNU recode, ktÃ³ry udostÄ™pnia niskopoziomowe dane dla odwzorowaÅ„.
+jest nakÅ‚adkÄ… dla programu GNU recode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
