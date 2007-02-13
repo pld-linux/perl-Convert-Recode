@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Recode
 Summary:	Convert::Recode - make mapping functions between character sets
-Summary(pl.UTF-8):   Convert::Recode - tworzenie funkcji odwzorowujących zestawy znaków
+Summary(pl.UTF-8):	Convert::Recode - tworzenie funkcji odwzorowujących zestawy znaków
 Name:		perl-Convert-Recode
 Version:	1.04
 Release:	1
