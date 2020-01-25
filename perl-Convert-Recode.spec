@@ -4,7 +4,6 @@
 
 %define		pdir	Convert
 %define		pnam	Recode
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::Recode - make mapping functions between character sets
 Summary(pl.UTF-8):	Convert::Recode - tworzenie funkcji odwzorowujących zestawy znaków
 Name:		perl-Convert-Recode
