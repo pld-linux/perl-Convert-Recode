@@ -8,7 +8,7 @@ Summary:	Convert::Recode - make mapping functions between character sets
 Summary(pl.UTF-8):	Convert::Recode - tworzenie funkcji odwzorowujących zestawy znaków
 Name:		perl-Convert-Recode
 Version:	1.04
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
